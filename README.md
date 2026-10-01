@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/fire-logo.svg" alt="FIRE brand logo" width="280" />
-</p>
-
 <h1 align="center">FIRE CLI</h1>
 
 <p align="center">
@@ -12,8 +8,7 @@
   <a href="#setup">Setup</a> ·
   <a href="#features">Features</a> ·
   <a href="#compatibility">Compatibility</a> ·
-  <a href="#cli-commands">CLI Commands</a> ·
-  <a href="#certificates">Windows setup</a>
+  <a href="#cli-commands">CLI Commands</a>
 </p>
 
 FIRE manages your local SQL Server or PostgreSQL databases for your project. Create or migrate databases, capture local changes as migrations, and reuse saved backups to rebuild faster.
@@ -76,7 +71,7 @@ After pulling new migrations, run `fire up` to apply the new migrations to your 
 
 Set `NO_COLOR=1` or `TERM=dumb` for numbered prompts and plain progress. Redirected output is also plain.
 
-Windows  workflows are tested. Native Linux/macOS and ARM testing is pending.
+Windows workflows are tested. Native Linux/macOS and ARM testing is pending.
 
 ### Requirements
 
