@@ -1,0 +1,3 @@
+# Preserve signed script bytes across Git checkouts.
+*.ps1 -text
+*.cer binary
